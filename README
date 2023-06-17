@@ -1,0 +1,48 @@
+# Music Player
+
+This is a simple music player application built using Python and the Tkinter GUI library. The application allows you to play, pause, stop, and navigate through a collection of music files stored in a specified directory. It also provides volume control, shuffle mode, and repeat mode options.
+
+## Features
+
+- Play, pause, stop, and navigate through music files.
+- Control volume levels.
+- Enable shuffle mode to play songs randomly.
+- Enable repeat mode to repeat the current song or the entire playlist.
+- Keyboard shortcuts for play/pause (Spacebar), next song (Right arrow), and previous song (Left arrow).
+
+## Requirements
+
+- Python 3.x
+- pygame
+- mutagen
+
+## Usage
+
+- Make sure you have Python installed on your system.
+- Install the required dependencies by running the following command:
+
+   ```shell
+   pip install pygame mutagen
+
+- Place your music files in a directory of your choice. Update the MUSIC_DIRECTORY 
+  variable in the code with the path to your music directory.
+
+- Run the following command to launch the Music Player:
+
+      - python main.py
+
+- The Music Player window will appear, displaying the available controls and 
+  information about the currently playing song.
+
+- Use the buttons to play, pause, stop, navigate, and control volume.
+
+- Enable shuffle mode and repeat mode checkboxes as desired.
+
+- Keyboard shortcuts are available for play/pause (Spacebar), next song (Right 
+  arrow), and previous song (Left arrow).
+
+
+
+## Contributing
+  - Contributions are welcome! If you find any issues or have suggestions 
+    for improvements, please feel free to open an issue or submit a pull request.
